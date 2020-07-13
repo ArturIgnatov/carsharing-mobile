@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "carsharing-mobile",
-    "slug": "carsharing-mobile",
+    "name": "Carsharing",
+    "slug": "Carsharing",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,12 +15,24 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
+		],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.homeprod.carhsaring.app.stage1",
+			"buildNumber": "1.0.0"
+		},
+		"android": {
+			"package": "com.homeprod.carhsaring.app.stage2",
+			"versionCode": 1,
+			"config": {
+				"googleMaps": {
+					"apiKey": "AIzaSyARg5DDXQDgorhVwS7AGL6eh2wRGlLdvQE"
+				}
+			}
+		},
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+		}
+		
   }
 }
