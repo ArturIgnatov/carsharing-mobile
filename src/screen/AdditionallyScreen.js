@@ -12,7 +12,7 @@ import { SwitchGroup } from '../components/Additionally screen/SwitchGroup'
 import { transformColors } from '../utils/functions'
 import { ColorGroup } from '../components/Additionally screen/ColorGroup'
 import { CarBox } from '../components/Additionally screen/CarBox'
-import { DateGroupe } from '../components/Additionally screen/DateGroup'
+import { DateGroup } from '../components/Additionally screen/DateGroup'
 
 const AdditionallyScreen = ({ route, navigation , rates}) => {
 	const { id, name, thumbnail, colors, priceMin, priceMax } = route.params	
@@ -103,7 +103,7 @@ const AdditionallyScreen = ({ route, navigation , rates}) => {
 				/> */}
 			</CardView>
 			<CardView>
-				<DateGroupe/>
+				<DateGroup/>
 			</CardView>
 			<Button
 				full

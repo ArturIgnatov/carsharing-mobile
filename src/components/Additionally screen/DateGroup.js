@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native'
 import { THEEM } from '../../theem'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 
-export const DateGroupe = () => {
+export const DateGroup = () => {
 	const [date, setDate] = useState('')
 	return(
 		<View>
