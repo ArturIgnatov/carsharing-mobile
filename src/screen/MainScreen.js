@@ -30,7 +30,7 @@ const MainScreen = ({
 			let { status } = await Location.requestPermissionsAsync()
 			if (status !== 'granted') {
 				console.log('Error setting location');
-			}
+			}		
 			let location = await Location.getCurrentPositionAsync({})
 			let lat = location.coords.latitude
 			let lng = location.coords.longitude

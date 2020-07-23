@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { StyleSheet, TouchableOpacity } from 'react-native'
-import { View, Text, ActionSheet, Content, Button } from 'native-base'
+import { View, Text } from 'native-base'
 import Modal from 'react-native-modal';
 import { THEEM } from '../theem';
 import { CityList } from './CityList' 
-import { color } from 'react-native-reanimated';
 import { DotIndicator } from 'react-native-indicators'
 
 

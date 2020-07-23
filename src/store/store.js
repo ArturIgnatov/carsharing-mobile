@@ -3,7 +3,7 @@ import thunkMiddleware from 'redux-thunk'
 import { mainReducer }  from './reducer/mainReducer'
 import { mapReducer } from './reducer/mapReducer'
 
- reducers = combineReducers({
+ let reducers = combineReducers({
 	 root: mainReducer,
 	 map: mapReducer
 })

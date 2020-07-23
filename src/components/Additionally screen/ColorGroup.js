@@ -2,7 +2,6 @@ import React from 'react'
 import { View, Text, Icon } from 'native-base'
 import { StyleSheet } from 'react-native'
 import { THEEM } from '../../theem'
-import { color } from 'react-native-reanimated'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 
 

@@ -16,7 +16,7 @@ import CarsScreen  from '../screen/CarsScreen'
 import MainScreen from '../screen/MainScreen'
 import LocationScreen from '../screen/LocationScreen'
 import AdditionallyScreen from '../screen/AdditionallyScreen'
-
+import СonfirmationScreen from '../screen/СonfirmationScreen'
 
 
 
@@ -38,6 +38,7 @@ const HomeStackScreen = () => {
 			<HomeStack.Screen name='Location' component={LocationScreen} options={{ headerTitle: '', headerTransparent: true }}/>
 			<HomeStack.Screen name='Cars' component={CarsScreen} options={{ headerTitle: 'Выбор автомобиля'}} />
 			<HomeStack.Screen name='Additionally' component={AdditionallyScreen} options={{ headerTitle: 'Дополнительно', }}/>
+			<HomeStack.Screen name='Confirmation' component={СonfirmationScreen} options={{ headerTitle: 'Подтверждение заказа' }} />
 		</HomeStack.Navigator>
 	)
 }
