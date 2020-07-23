@@ -74,3 +74,6 @@ export const newTestFunction2 = () => {
 export const newTestFunction3 = () => {
 	return res = 1 + 2
 }
+export const newTestFunction4 = () => {
+	return res = 1 + 2
+}
