@@ -68,3 +68,9 @@ export const generateNumber = (region) => {
 export const newTestFunction = () => {
 	return res = 1 + 2
 }
+export const newTestFunction2 = () => {
+	return res = 1 + 2
+}
+export const newTestFunction3 = () => {
+	return res = 1 + 2
+}
